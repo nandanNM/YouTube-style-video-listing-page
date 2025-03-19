@@ -78,4 +78,6 @@ searchInput.addEventListener("input", (e) => {
   }
 });
 
-loadVideos();
+document.addEventListener("DOMContentLoaded", () => {
+  loadVideos();
+});
